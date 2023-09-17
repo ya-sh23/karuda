@@ -1,0 +1,102 @@
+#healthc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hupper {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hheading {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Lora', serif;
+}
+
+h2, h3 {
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+.hlower {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    margin-top: 5%;
+}
+
+.hd {
+    background-color: rgb(238, 92, 92);
+    border-radius: 15px;
+    border: 2px solid rgb(136, 136, 136);
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    transition: .4s ease-in-out;
+}
+
+.hd h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+}
+
+.hd h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+}
+
+.hd:hover {
+    background-color: rgb(197, 79, 79);
+    transform: scale(0.9);
+    color: #070A52;
+}
+
+.hd:hover h2 {
+    color: white;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 900px) {
+    .hupper {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+    }
+    
+    .hheading {
+        font-size: 2rem;
+    }
+    
+    .hlower {
+        height: auto;
+        margin-top: 10%;
+    }
+    
+    .hd {
+        width: 80%;
+        height: 80px;
+    }
+    
+    .hd h1 {
+        font-size: 1.2rem;
+    }
+    
+    .hd h2 {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Pacifico&display=swap");
+
+.well{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upper_well{
+    display: flex;
+    width: 70vw;
+    padding: 5%;
+    flex-direction: column;
+}
+.upper_well h1{
+    padding-bottom: 5%;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Lora', serif;
+}
+.upper_well h3{
+    font-family: 'Rubik', sans-serif;
+}
+
+.well_lower{
+display: flex;
+flex-direction: column;
+}
+.three{
+    display: flex;
+}
+.three,.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5%;
+}
+.three,.two{
+    width: 70vw;
+}
+.wfood,.cleaning,.Exercise,.Medication,.toys{
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 1%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+.wfood:hover,.cleaning:hover,.Exercise:hover,.Medication:hover,.toys:hover{
+    transform: scale(.9);
+    border:2px solid black ;
+}
+
+.wfood:hover h4{
+    color: red;
+}
+.cleaning:hover h4{
+    color: red;
+}
+.Exercise:hover h4{
+    color: red;
+}
+.Medication:hover h4{
+    color: red;
+}
+.toys:hover h4{
+    color: red;
+}
+.fi{
+    width: 18vw;
+    height: 25vh;
+}
+.wl{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
